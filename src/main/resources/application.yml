@@ -1,0 +1,18 @@
+info:
+  app:
+    name: electoral3
+
+server:
+  max-http-header-size:
+spring:
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+  datasource:
+    platform: mysql
+    url: jdbc:mysql://165.22.44.145:3306/consultor1_bd?useSSL=false&useUnicode=true&characterEncoding=utf-8
+    username: tlaxitadmin
+    password: Tl@xAdm!nIT3nt3rpris3
+    driverClassName: com.mysql.cj.jdbc.Driver
